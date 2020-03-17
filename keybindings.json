@@ -1,0 +1,11 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[{
+        "key": "alt+q",
+        "command": "editor.action.reindentlines"
+    },
+    {
+        "key": "alt+q",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+    },
+]
